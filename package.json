@@ -1,10 +1,10 @@
 {
   "author": "Sherpad Ndabambi",
   "bin": {
-    "node-cli-starter": "./dist/index.js"
+    "node.js-cli-starter": "./dist/index.js"
   },
   "bugs": {
-    "url": "https://github.com/sherpadndabambi/node-cli-starter/issues"
+    "url": "https://github.com/sherpadndabambi/node.js-cli-starter/issues"
   },
   "description": "Starter project for Node.js CLI apps.",
   "devDependencies": {
@@ -24,13 +24,13 @@
   "engines": {
     "node": ">=20.6.0"
   },
-  "homepage": "https://github.com/sherpadndabambi/node-cli-starter#readme",
+  "homepage": "https://github.com/sherpadndabambi/node.js-cli-starter#readme",
   "license": "ISC",
   "main": "index.js",
-  "name": "node-cli-starter",
+  "name": "node.js-cli-starter",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sherpadndabambi/node-cli-starter.git"
+    "url": "git+https://github.com/sherpadndabambi/node.js-cli-starter.git"
   },
   "scripts": {
     "build": "tsc",

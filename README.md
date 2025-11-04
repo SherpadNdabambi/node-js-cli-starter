@@ -216,18 +216,18 @@ Distributed under the ISC License. See [LICENSE][License url] for more informati
 
 <!-- References -->
 
-[Contributors shield url]: https://img.shields.io/github/contributors/sherpadNdabambi/node-cli-starter.svg?style=flat
-[Contributors url]: https://github.com/sherpadNdabambi/node-cli-starter/graphs/contributors
-[Issues shield url]: https://img.shields.io/github/issues/sherpadNdabambi/node-cli-starter.svg?style=flat
-[Issues url]: https://github.com/sherpadNdabambi/node-cli-starter/issues
-[License shield url]: https://img.shields.io/github/license/SherpadNdabambi/node-cli-starter
+[Contributors shield url]: https://img.shields.io/github/contributors/sherpadNdabambi/node.js-cli-starter.svg?style=flat
+[Contributors url]: https://github.com/sherpadNdabambi/node.js-cli-starter/graphs/contributors
+[Issues shield url]: https://img.shields.io/github/issues/sherpadNdabambi/node.js-cli-starter.svg?style=flat
+[Issues url]: https://github.com/sherpadNdabambi/node.js-cli-starter/issues
+[License shield url]: https://img.shields.io/github/license/SherpadNdabambi/node.js-cli-starter
 [License url]: ./LICENSE
 [Logo url]: ./assets/img/logo.svg
-[Repo url]: https://github.com/SherpadNdabambi/node-cli-starter/
+[Repo url]: https://github.com/SherpadNdabambi/node.js-cli-starter/
 [Node.js shield url]: https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white
 [Node.js url]: https://nodejs.org/
 [Node.js CLI Starter screenshot url]: ./assets/img/og-image.png
-[Node.js CLI Starter url]: https://github.com/sherpadNdabambi/node-cli-starter/
+[Node.js CLI Starter url]: https://github.com/sherpadNdabambi/node.js-cli-starter/
 [HTML5 shield url]: https://img.shields.io/badge/HTML5-e54c22?style=for-the-badge&logo=html5&logoColor=white
 [HTML5 url]: https://html.spec.whatwg.org/multipage/
 [Bootstrap shield url]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
@@ -240,8 +240,8 @@ Distributed under the ISC License. See [LICENSE][License url] for more informati
 [jQuery url]: https://jquery.com/
 [Node.js url]: https://nodejs.org/
 [npm url]: https://www.npmjs.com/
-[latest release url]: https://github.com/sherpadNdabambi/node-cli-starter/releases/latest
-[Documentation url]: https://sherpadndabambi.github.io/node-cli-starter/
+[latest release url]: https://github.com/sherpadNdabambi/node.js-cli-starter/releases/latest
+[Documentation url]: https://sherpadndabambi.github.io/node.js-cli-starter/
 [changelog url]: ./CHANGELOG.md
 [Personal website url]: https://sherpadndabambi.github.io/
 [Email address]: mailto:sgndabambi@gmail.com
