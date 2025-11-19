@@ -6,6 +6,9 @@
   "bugs": {
     "url": "https://github.com/sherpadndabambi/node.js-cli-starter/issues"
   },
+  "dependencies": {
+    "commander": "^14.0.2"
+  },
   "description": "Starter project for Node.js CLI apps.",
   "devDependencies": {
     "@types/inquirer": "^9.0.7",
@@ -39,8 +42,5 @@
     "test": "jest"
   },
   "type": "module",
-  "version": "1.0.0",
-  "dependencies": {
-    "commander": "^14.0.2"
-  }
+  "version": "1.0.0"
 }
