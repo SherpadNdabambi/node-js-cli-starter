@@ -4,6 +4,12 @@ All notable changes to Node.js CLI Starter will be documented in this file.
 
 The format is based on [Keep a Changelog][Keep a Changelog url], and this project adheres to [Semantic Versioning][Semantic Versioning url].
 
+## [1.0.2] (19 November 2025)
+
+### Fixed
+
+1. Add `moduleNameMapper` in `jest.config.ts` to strip explicit `.js` extensions emitted by TypeScript when using `moduleResolution: "bundler"` or `"node16"`/`"nodenext"`. This prevents "Cannot find module './foo.js'" errors when running tests with Jest.
+
 ## [1.0.1] (31 October 2025)
 
 ### Changed
@@ -35,5 +41,6 @@ The format is based on [Keep a Changelog][Keep a Changelog url], and this projec
 
 [Keep a Changelog url]: https://keepachangelog.com/en/1.0.0/
 [Semantic Versioning url]: https://semver.org/spec/v2.0.0.html
+[1.0.2]: https://github.com/SherpadNdabambi/node.js-cli-starter/releases/tag/v1.0.2
 [1.0.1]: https://github.com/SherpadNdabambi/node.js-cli-starter/releases/tag/v1.0.1
 [1.0.0]: https://github.com/SherpadNdabambi/node.js-cli-starter/releases/tag/v1.0.0
