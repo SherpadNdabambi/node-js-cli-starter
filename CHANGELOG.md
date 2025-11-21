@@ -4,6 +4,15 @@ All notable changes to Node.js CLI Starter will be documented in this file.
 
 The format is based on [Keep a Changelog][Keep a Changelog url], and this project adheres to [Semantic Versioning][Semantic Versioning url].
 
+## [1.0.3] (21 November 2025)
+
+### Changed
+
+1. Rename assets/ts/index.ts → assets/ts/cli.ts.
+2. Update "bin", "main", and "start" script in package.json to point to dist/cli.js.
+
+Makes the CLI entry point name more explicit and avoids confusion with generic index files.
+
 ## [1.0.2] (19 November 2025)
 
 ### Fixed
@@ -41,6 +50,7 @@ The format is based on [Keep a Changelog][Keep a Changelog url], and this projec
 
 [Keep a Changelog url]: https://keepachangelog.com/en/1.0.0/
 [Semantic Versioning url]: https://semver.org/spec/v2.0.0.html
+[1.0.3]: https://github.com/SherpadNdabambi/node.js-cli-starter/releases/tag/v1.0.3
 [1.0.2]: https://github.com/SherpadNdabambi/node.js-cli-starter/releases/tag/v1.0.2
 [1.0.1]: https://github.com/SherpadNdabambi/node.js-cli-starter/releases/tag/v1.0.1
 [1.0.0]: https://github.com/SherpadNdabambi/node.js-cli-starter/releases/tag/v1.0.0
