@@ -1,7 +1,7 @@
 {
   "author": "Sherpad Ndabambi",
   "bin": {
-    "node.js-cli-starter": "./dist/index.js"
+    "node.js-cli-starter": "./dist/cli.js"
   },
   "bugs": {
     "url": "https://github.com/sherpadndabambi/node.js-cli-starter/issues"
@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/sherpadndabambi/node.js-cli-starter#readme",
   "license": "ISC",
-  "main": "index.js",
+  "main": "cli.js",
   "name": "node.js-cli-starter",
   "repository": {
     "type": "git",
@@ -37,7 +37,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "start": "npm run build && node --env-file=.env dist/index.js",
+    "start": "npm run build && node --env-file=.env dist/cli.js",
     "setup": "tsx assets/ts/setup.ts",
     "test": "jest"
   },
