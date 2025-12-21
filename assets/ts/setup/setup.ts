@@ -1,32 +1,21 @@
+/**
+ * @file setup.ts
+ * @description module containing the functions for setting up the project
+ */
+import { getCurrentValues } from "./getCurrentValues.js";
 import { readFile, writeFile } from "fs/promises";
 import inquirer from "inquirer";
 
-async function getCurrentValues() {
-  const pkgStr = await readFile("package.json", "utf8");
-  const pkg = JSON.parse(pkgStr);
-  const currentSlug = pkg.name;
-  const currentAuthor =
-    typeof pkg.author === "string" ? pkg.author : pkg.author?.name || "";
-  const currentDesc = pkg.description || "";
-  const repoMatch = pkg.repository?.url?.match(/github\.com\/([^\/]+)\//);
-  const currentUsername = repoMatch ? repoMatch[1] : "";
-  const readmeStr = await readFile("README.md", "utf8");
-  const emailMatch = readmeStr.match(/mailto:([^&\s]+)/);
-  const currentEmail = emailMatch ? emailMatch[1] : "";
-  const nameMatch = readmeStr.match(/^#\s*(.+?)\s*$/m);
-  const currentProjectName = nameMatch ? nameMatch[1].trim() : "";
-  return {
-    currentSlug,
-    currentAuthor,
-    currentDesc,
-    currentUsername,
-    currentEmail,
-    currentProjectName,
-  };
-}
-
-async function runSetup() {
+/**
+ * Prompts the user for replacement values and updates the project files
+ *
+ * @returns {Promise<void>} A promise that resolves when the setup is complete
+ */
+async function setup() {
   const currents = await getCurrentValues();
+
+  // Debugging
+  console.debug("Current values:", currents);
 
   // Prompt user for replacement values (with current as defaults for re-runs)
   const answers = await inquirer.prompt([
@@ -173,7 +162,10 @@ async function runSetup() {
   console.log("Project setup complete.");
 }
 
-runSetup().catch((error) => {
+// Run the setup
+setup().catch((error) => {
   console.error("Project setup failed:", error);
   process.exit(1);
 });
+
+export { setup };
