@@ -132,7 +132,7 @@ _For more examples, please refer to the [Documentation][Documentation url]_
 - [x] Modularise app logic
   - [x] Update tests
 - [x] Add JSDoc comments
-- [ ] Replace --env-file with dotenv for reliable .env loading
+- [x] Replace --env-file with dotenv for reliable .env loading
 - [ ] Fix setup unit test
 
 See the [open issues][Issues url] for a full list of proposed features (and known issues).
