@@ -7,7 +7,8 @@
     "url": "https://github.com/sherpadndabambi/node-js-cli-starter/issues"
   },
   "dependencies": {
-    "commander": "^14.0.2"
+    "commander": "^14.0.2",
+    "dotenv": "^17.2.3"
   },
   "description": "Starter project for Node.js CLI apps.",
   "devDependencies": {
@@ -37,7 +38,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "start": "npm run build && node --env-file=.env dist/cli.js",
+    "start": "npm run build && node dist/cli.js",
     "setup": "tsx assets/ts/setup/setup.ts",
     "test": "npm run test:unit && npm run test:integration",
     "test:integration": "npx jest --config jest.integration.config.ts",

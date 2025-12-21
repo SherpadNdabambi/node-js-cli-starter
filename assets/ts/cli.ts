@@ -4,6 +4,7 @@
  * @description main entry point for Node.js CLI Starter
  */
 import { Command } from "commander";
+import "dotenv/config";
 import { printHelloWorldCmd } from "./printHelloWorldCmd.js";
 
 const program = new Command()

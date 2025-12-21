@@ -14,6 +14,7 @@ The format is based on [Keep a Changelog][Keep a Changelog url], and this projec
 
 1. Modularize app logic.
 2. Update tests.
+3. Replace --env-file with dotenv for reliable .env loading.
 
 ## [1.0.3] (21 November 2025)
 
