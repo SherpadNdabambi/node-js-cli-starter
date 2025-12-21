@@ -62,6 +62,7 @@ Makes the CLI entry point name more explicit and avoids confusion with generic i
 
 [Keep a Changelog url]: https://keepachangelog.com/en/1.0.0/
 [Semantic Versioning url]: https://semver.org/spec/v2.0.0.html
+[1.0.4]: https://github.com/SherpadNdabambi/node-js-cli-starter/releases/tag/v1.0.4
 [1.0.3]: https://github.com/SherpadNdabambi/node-js-cli-starter/releases/tag/v1.0.3
 [1.0.2]: https://github.com/SherpadNdabambi/node-js-cli-starter/releases/tag/v1.0.2
 [1.0.1]: https://github.com/SherpadNdabambi/node-js-cli-starter/releases/tag/v1.0.1
