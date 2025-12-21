@@ -9,7 +9,7 @@ import { printHelloWorldCmd } from "./printHelloWorldCmd.js";
 const program = new Command()
   .description("Node.js CLI Starter")
   .name("node-cli-starter")
-  .version("1.0.0");
+  .version("1.0.4");
 
 program.addCommand(printHelloWorldCmd);
 
