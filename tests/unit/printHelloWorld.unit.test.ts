@@ -1,8 +1,14 @@
-import { printHelloWorld } from "../assets/ts/app";
+/**
+ * @file helloWorld.test.ts
+ * @description module containing the tests for the printHelloWorld function
+ *
+ * @test {printHelloWorld} should call console.log with "Hello, Node.js!"
+ */
+import { printHelloWorld } from "../../assets/ts/printHelloWorld";
 
 // Test the printHelloWorld function
 describe("printHelloWorld", () => {
-  it('should log "Hello, Node.js!" to the console', () => {
+  test('should call console.log with "Hello, Node.js!"', () => {
     // Spy on console.log
     const consoleSpy = jest.spyOn(console, "log").mockImplementation();
 

@@ -1,10 +1,10 @@
 {
   "author": "Sherpad Ndabambi",
   "bin": {
-    "node.js-cli-starter": "./dist/cli.js"
+    "node-js-cli-starter": "./dist/cli.js"
   },
   "bugs": {
-    "url": "https://github.com/sherpadndabambi/node.js-cli-starter/issues"
+    "url": "https://github.com/sherpadndabambi/node-js-cli-starter/issues"
   },
   "dependencies": {
     "commander": "^14.0.2"
@@ -27,19 +27,21 @@
   "engines": {
     "node": ">=20.6.0"
   },
-  "homepage": "https://github.com/sherpadndabambi/node.js-cli-starter#readme",
+  "homepage": "https://github.com/sherpadndabambi/node-js-cli-starter#readme",
   "license": "ISC",
   "main": "cli.js",
-  "name": "node.js-cli-starter",
+  "name": "node-js-cli-starter",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sherpadndabambi/node.js-cli-starter.git"
+    "url": "git+https://github.com/sherpadndabambi/node-js-cli-starter.git"
   },
   "scripts": {
     "build": "tsc",
     "start": "npm run build && node --env-file=.env dist/cli.js",
-    "setup": "tsx assets/ts/setup.ts",
-    "test": "jest"
+    "setup": "tsx assets/ts/setup/setup.ts",
+    "test": "npm run test:unit && npm run test:integration",
+    "test:integration": "npx jest --config jest.integration.config.ts",
+    "test:unit": "npx jest --config jest.unit.config.ts"
   },
   "type": "module",
   "version": "1.0.0"

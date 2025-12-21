@@ -4,6 +4,17 @@ All notable changes to Node.js CLI Starter will be documented in this file.
 
 The format is based on [Keep a Changelog][Keep a Changelog url], and this project adheres to [Semantic Versioning][Semantic Versioning url].
 
+## [1.0.4] (21 December 2025)
+
+### Added
+
+1. Add JSDoc comments.
+
+### Changed
+
+1. Modularize app logic.
+2. Update tests.
+
 ## [1.0.3] (21 November 2025)
 
 ### Changed
@@ -23,7 +34,7 @@ Makes the CLI entry point name more explicit and avoids confusion with generic i
 
 ### Changed
 
-1. Renamed repository slug from `node-cli-starter` to `node.js-cli-starter`.
+1. Renamed repository slug from `node-cli-starter` to `node-js-cli-starter`.
 
 ## [1.0.0] (31 October 2025)
 
@@ -50,7 +61,7 @@ Makes the CLI entry point name more explicit and avoids confusion with generic i
 
 [Keep a Changelog url]: https://keepachangelog.com/en/1.0.0/
 [Semantic Versioning url]: https://semver.org/spec/v2.0.0.html
-[1.0.3]: https://github.com/SherpadNdabambi/node.js-cli-starter/releases/tag/v1.0.3
-[1.0.2]: https://github.com/SherpadNdabambi/node.js-cli-starter/releases/tag/v1.0.2
-[1.0.1]: https://github.com/SherpadNdabambi/node.js-cli-starter/releases/tag/v1.0.1
-[1.0.0]: https://github.com/SherpadNdabambi/node.js-cli-starter/releases/tag/v1.0.0
+[1.0.3]: https://github.com/SherpadNdabambi/node-js-cli-starter/releases/tag/v1.0.3
+[1.0.2]: https://github.com/SherpadNdabambi/node-js-cli-starter/releases/tag/v1.0.2
+[1.0.1]: https://github.com/SherpadNdabambi/node-js-cli-starter/releases/tag/v1.0.1
+[1.0.0]: https://github.com/SherpadNdabambi/node-js-cli-starter/releases/tag/v1.0.0
