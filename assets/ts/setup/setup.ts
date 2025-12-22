@@ -14,9 +14,6 @@ import inquirer from "inquirer";
 async function setup() {
   const currents = await getCurrentValues();
 
-  // Debugging
-  console.debug("Current values:", currents);
-
   // Prompt user for replacement values (with current as defaults for re-runs)
   const answers = await inquirer.prompt([
     {

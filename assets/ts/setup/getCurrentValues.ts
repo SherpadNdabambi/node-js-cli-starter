@@ -27,9 +27,6 @@ async function getCurrentValues() {
     projectNameMatch = readmeStr.match(/^#\s*(.+?)\s*$/m),
     currentProjectName = projectNameMatch ? projectNameMatch[1].trim() : "";
 
-  // Debugging
-  console.debug("pkgStr", pkgStr);
-
   return {
     currentAuthor,
     currentDesc,
