@@ -4,6 +4,12 @@ All notable changes to Node.js CLI Starter will be documented in this file.
 
 The format is based on [Keep a Changelog][Keep a Changelog url], and this project adheres to [Semantic Versioning][Semantic Versioning url].
 
+## [1.0.5] (22 December 2025)
+
+### Fixed
+
+1. Remove debugging code.
+
 ## [1.0.4] (21 December 2025)
 
 ### Added
@@ -62,6 +68,7 @@ Makes the CLI entry point name more explicit and avoids confusion with generic i
 
 [Keep a Changelog url]: https://keepachangelog.com/en/1.0.0/
 [Semantic Versioning url]: https://semver.org/spec/v2.0.0.html
+[1.0.5]: https://github.com/SherpadNdabambi/node-js-cli-starter/releases/tag/v1.0.5
 [1.0.4]: https://github.com/SherpadNdabambi/node-js-cli-starter/releases/tag/v1.0.4
 [1.0.3]: https://github.com/SherpadNdabambi/node-js-cli-starter/releases/tag/v1.0.3
 [1.0.2]: https://github.com/SherpadNdabambi/node-js-cli-starter/releases/tag/v1.0.2
