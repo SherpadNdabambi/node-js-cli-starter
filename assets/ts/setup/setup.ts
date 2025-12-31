@@ -73,6 +73,12 @@ async function setup() {
   }
 
   const replacements = [
+    // cli.ts
+    {
+      file: "assets/ts/cli.ts",
+      search: currents.currentSlug,
+      replace: answers.projectSlug,
+    },
     // CHANGELOG.md
     {
       file: "CHANGELOG.md",
