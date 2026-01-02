@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog][Keep a Changelog url], and this projec
 
 1. Add semantic release configuration
 2. Add GitHub Actions release workflow
+3. Add package-lock.json to version tracking
 
 ## [2.0.0] (31 December 2025)
 
