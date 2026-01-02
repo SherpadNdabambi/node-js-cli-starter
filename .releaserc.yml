@@ -5,18 +5,14 @@ plugins:
   - "@semantic-release/release-notes-generator"
   - "@semantic-release/changelog"
   # - "@semantic-release/npm"  # optional if you publish to npm
-  - 
-    - "@semantic-release/exec"
-    - 
-      prepareCmd: |
+  - - "@semantic-release/exec"
+    - prepareCmd: |
         npm version ${nextRelease.version} --no-git-tag-version
-        sed -i '' "s/.version(\"[^\"]*\")/.version(\"${nextRelease.version}\")/" assets/ts/cli.ts
-  - 
-    - "@semantic-release/git"
-    - 
-      assets:
+        sed -i "s/.version(\"[^\"]*\")/.version(\"${nextRelease.version}\")/" assets/ts/cli.ts
+  - - "@semantic-release/git"
+    - assets:
         - package.json
-        - package-lock.json  # if you have one
+        - package-lock.json # if you have one
         - CHANGELOG.md
         - assets/ts/cli.ts
-      message: "chore(release): $$ {nextRelease.version} [skip ci]\n\n $${nextRelease.notes}"
+      message: "release: ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
