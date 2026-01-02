@@ -3,7 +3,13 @@ branches:
 plugins:
   - "@semantic-release/commit-analyzer"
   - "@semantic-release/release-notes-generator"
-  - "@semantic-release/changelog"
+  - - "@semantic-release/changelog"
+    - changelogTitle: |
+        # Changelog
+
+        All notable changes to Node.js CLI Starter will be documented in this file.
+
+        The format is based on [Keep a Changelog][Keep a Changelog url], and this project adheres to [Semantic Versioning][Semantic Versioning url].
   # - "@semantic-release/npm"  # optional if you publish to npm
   - - "@semantic-release/exec"
     - prepareCmd: |
