@@ -4,6 +4,13 @@ All notable changes to Node.js CLI Starter will be documented in this file.
 
 The format is based on [Keep a Changelog][Keep a Changelog url], and this project adheres to [Semantic Versioning][Semantic Versioning url].
 
+## [2.1.0] Add semantic-release Config and GitHub Actions Release Workflow (2 January 2025)
+
+### Added
+
+1. Add semantic release configuration
+2. Add GitHub Actions release workflow
+
 ## [2.0.0] (31 December 2025)
 
 ### Added
@@ -78,6 +85,7 @@ Makes the CLI entry point name more explicit and avoids confusion with generic i
 
 [Keep a Changelog url]: https://keepachangelog.com/en/1.0.0/
 [Semantic Versioning url]: https://semver.org/spec/v2.0.0.html
+[2.1.0]: https://github.com/SherpadNdabambi/node-js-cli-starter/releases/tag/v2.1.0
 [2.0.0]: https://github.com/SherpadNdabambi/node-js-cli-starter/releases/tag/v2.0.0
 [1.0.5]: https://github.com/SherpadNdabambi/node-js-cli-starter/releases/tag/v1.0.5
 [1.0.4]: https://github.com/SherpadNdabambi/node-js-cli-starter/releases/tag/v1.0.4
