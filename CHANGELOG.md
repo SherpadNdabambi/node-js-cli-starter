@@ -1,3 +1,11 @@
+# [2.1.0](https://github.com/sherpadndabambi/node-js-cli-starter/compare/v2.0.0...v2.1.0) (2026-01-02)
+
+
+### Features
+
+* Add semantic-release and its plugins, and adjust release configuration for cross-platform `sed` compatibility. ([27f4c59](https://github.com/sherpadndabambi/node-js-cli-starter/commit/27f4c59ffd30bd32f141caaaf7dbfdcabce5cc52))
+* add semantic-release Config and GitHub Actions Release Workflow ([ea1a9da](https://github.com/sherpadndabambi/node-js-cli-starter/commit/ea1a9da9e2a2ef26d451c247091356a9b94ccce4))
+
 # Changelog
 
 All notable changes to Node.js CLI Starter will be documented in this file.
