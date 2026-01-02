@@ -6,6 +6,3 @@ dist
 
 # Node.js dependencies (regenerate with npm install)
 node_modules
-
-# Lock file for Node.js dependencies (regenerate with npm install)
-package-lock.json
