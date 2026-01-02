@@ -1,11 +1,3 @@
-# [2.1.0](https://github.com/sherpadndabambi/node-js-cli-starter/compare/v2.0.0...v2.1.0) (2026-01-02)
-
-
-### Features
-
-* Add semantic-release and its plugins, and adjust release configuration for cross-platform `sed` compatibility. ([27f4c59](https://github.com/sherpadndabambi/node-js-cli-starter/commit/27f4c59ffd30bd32f141caaaf7dbfdcabce5cc52))
-* add semantic-release Config and GitHub Actions Release Workflow ([ea1a9da](https://github.com/sherpadndabambi/node-js-cli-starter/commit/ea1a9da9e2a2ef26d451c247091356a9b94ccce4))
-
 # Changelog
 
 All notable changes to Node.js CLI Starter will be documented in this file.
@@ -94,11 +86,11 @@ Makes the CLI entry point name more explicit and avoids confusion with generic i
 
 [Keep a Changelog url]: https://keepachangelog.com/en/1.0.0/
 [Semantic Versioning url]: https://semver.org/spec/v2.0.0.html
-[2.1.0]: https://github.com/SherpadNdabambi/node-js-cli-starter/releases/tag/v2.1.0
-[2.0.0]: https://github.com/SherpadNdabambi/node-js-cli-starter/releases/tag/v2.0.0
-[1.0.5]: https://github.com/SherpadNdabambi/node-js-cli-starter/releases/tag/v1.0.5
-[1.0.4]: https://github.com/SherpadNdabambi/node-js-cli-starter/releases/tag/v1.0.4
-[1.0.3]: https://github.com/SherpadNdabambi/node-js-cli-starter/releases/tag/v1.0.3
-[1.0.2]: https://github.com/SherpadNdabambi/node-js-cli-starter/releases/tag/v1.0.2
-[1.0.1]: https://github.com/SherpadNdabambi/node-js-cli-starter/releases/tag/v1.0.1
+[2.1.0]: https://github.com/SherpadNdabambi/node-js-cli-starter/compare/v2.0.0...v2.1.0
+[2.0.0]: https://github.com/SherpadNdabambi/node-js-cli-starter/compare/v1.0.5...v2.0.0
+[1.0.5]: https://github.com/SherpadNdabambi/node-js-cli-starter/compare/v1.0.4...v1.0.5
+[1.0.4]: https://github.com/SherpadNdabambi/node-js-cli-starter/compare/v1.0.3...v1.0.4
+[1.0.3]: https://github.com/SherpadNdabambi/node-js-cli-starter/compare/v1.0.2...v1.0.3
+[1.0.2]: https://github.com/SherpadNdabambi/node-js-cli-starter/compare/v1.0.1...v1.0.2
+[1.0.1]: https://github.com/SherpadNdabambi/node-js-cli-starter/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/SherpadNdabambi/node-js-cli-starter/releases/tag/v1.0.0
